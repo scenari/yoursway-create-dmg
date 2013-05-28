@@ -111,16 +111,14 @@ if __name__ == '__main__':
         '--rez',
         '-r',
         action='store',
-        default='/Applications/Xcode.app/Contents/Developer/Tools/Rez',
+        default='/Developer/Tools/Rez',
         help='The path to the Rez tool. Defaults to %default'
     )
     parser.add_option(
         '--flat-carbon',
         '-f',
         action='store',
-        default='/Applications/Xcode.app/Contents/Developer/Platforms'
-                '/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk'
-                '/Developer/Headers/FlatCarbon',
+        default='/Developer/Headers/FlatCarbon',
         help='The path to the FlatCarbon headers. Defaults to %default'
     )
     parser.add_option(
